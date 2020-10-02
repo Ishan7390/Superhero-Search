@@ -56,7 +56,7 @@ function App() {
           Search
         </button>
       </div>
-      <BarLoader loading size={1500}/>
+      <BarLoader loading size={1500} />
       <div className="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
         {Array.isArray(heroes.list) &&
           (heroes.list.length !== 0 ? (
